@@ -9,7 +9,9 @@ Understanding the concepts of natural language processing with python.
 - https://scikit-learn.org/stable/tutorial/text_analytics/working_with_text_data.html
 
 
+## Text extraction
 
+E.g. extracting keywords from resume. But there could be typo (e.g. workd, when what we want is work). Can levenshtein be used with regex? Apparently there is an approximate string matching regex in the regex module for python not the re module.
 
 ## NLP - Text Summarization
 https://machinelearningmastery.com/gentle-introduction-text-summarization/
