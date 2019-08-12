@@ -54,4 +54,42 @@ https://radimrehurek.com/gensim/tutorial.html
 http://kavita-ganesan.com/gensim-word2vec-tutorial-starter-code/
 
 
+https://www.searchtechnologies.com/blog/natural-language-processing-techniques
+https://towardsdatascience.com/detecting-bad-customer-reviews-with-nlp-d8b36134dc7e
+https://blog.insightdatascience.com/how-to-solve-90-of-nlp-problems-a-step-by-step-guide-fda605278e4e
+https://medium.com/hackernoon/stepping-into-nlp-word2vec-with-gensim-e7c54d9a450a
 
+https://towardsdatascience.com/hands-on-bayesian-statistics-with-python-pymc3-arviz-499db9a59501
+https://www.python-course.eu/machine_learning_terminology.php
+
+## Sequence-to-Sequence learning
+
+https://towardsdatascience.com/nlp-sequence-to-sequence-networks-part-2-seq2seq-model-encoderdecoder-model-6c22e29fd7e1
+https://blog.keras.io/a-ten-minute-introduction-to-sequence-to-sequence-learning-in-keras.html
+https://towardsdatascience.com/understanding-encoder-decoder-sequence-to-sequence-model-679e04af4346
+
+## Locality Sensitive Hashing (LSH)
+
+- detect plagiarism in text
+- recommendation
+
+https://github.com/mattilyra/LSH/blob/master/examples/Introduction.ipynb
+https://mattilyra.github.io/2017/05/23/document-deduplication-with-lsh.html
+https://www.learndatasci.com/tutorials/building-recommendation-engine-locality-sensitive-hashing-lsh-python/
+https://resteorts.github.io/record-linkage-tutorial/slides/03-lsh.pdf
+https://towardsdatascience.com/understanding-locality-sensitive-hashing-49f6d1f6134
+https://towardsdatascience.com/locality-sensitive-hashing-for-music-search-f2f1940ace23
+https://medium.com/@himanshuit3036/locality-sensitive-hashing-finding-documents-similarity-6f12d4d83af
+https://medium.com/engineering-brainly/locality-sensitive-hashing-explained-304eb39291e4
+https://www.knoyd.com/blog/2017/7/30/facebook-group-scraper
+https://thoughtbot.com/blog/recommending-blog-posts
+https://pydata.org/london2018/schedule/presentation/30/
+https://www.learndatasci.com/tutorials/building-recommendation-engine-locality-sensitive-hashing-lsh-python/
+https://databricks.com/session/locality-sensitive-hashing-by-spark
+https://www.mit.edu/~andoni/LSH/
+
+https://medium.com/engineering-brainly/locality-sensitive-hashing-explained-304eb39291e4
+https://en.m.wikipedia.org/wiki/Locality-sensitive_hashing
+https://towardsdatascience.com/understanding-locality-sensitive-hashing-49f6d1f6134?gi=5b9309f16dce
+https://en.m.wikipedia.org/wiki/Locality-sensitive_hashing
+https://en.m.wikipedia.org/wiki/(1%2Bε)-approximate_nearest_neighbor_search
