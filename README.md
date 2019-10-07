@@ -1,7 +1,11 @@
 # nlp-with-python
 Understanding the concepts of natural language processing with python.
 
+## Stopwords
 
+List of stopwords: https://gist.github.com/sebleier/554280
+
+On dealing with stopwords: remove generic stopwords, but also don't forget to find the domain-specific stopwords. This is typically the name of the product itself, or verbs associated with the product, e.g. for computer games, the word `computer`, `game`, `playing` could be the stopwords, since it is describing the product itself.
 
 # Text analytics 
 
