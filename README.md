@@ -97,3 +97,72 @@ https://en.m.wikipedia.org/wiki/Locality-sensitive_hashing
 https://towardsdatascience.com/understanding-locality-sensitive-hashing-49f6d1f6134?gi=5b9309f16dce
 https://en.m.wikipedia.org/wiki/Locality-sensitive_hashing
 https://en.m.wikipedia.org/wiki/(1%2Bε)-approximate_nearest_neighbor_search
+
+
+## Parse pdf
+- Read the text from the pdf and summarise it. Allow users to ask questions about the summarised text. 
+- Categorize the pdf according to the type. Perform supervised and unsupervised learning
+
+
+## Brig Myers
+
+brigg myers personality test
+
+* Basic data cleaning (or the lack thereof - its actually quite clean already)
+* Extract weblinks from each user, and
+    * Further divide the weblinks into video, images and others
+    * For videos, extract video titles from the respective sites (not used)
+    * For images, extract keywords (not done)
+    * For other websites, obtain categories (not done)
+* Split the target data from 16 categories into 4 binary classifiers (The why will be explained below)
+* Extract other metadata:
+    * Emoticons (eg. :happy:)
+    * Mentions (eg. @tamagonii)
+    * Hashtags (eg. #ilovetamago)
+    * MBTI reference (eg. INFP, ENFJ) (not used)
+    * Action words (eg. *jumps into the pool and swim away*)
+    * Enneagram regerence (eg. 4w1) (not used)
+    * Brackets (eg. [quote])
+    * Dots count (…)
+    * Number of words
+    * Number of word characters
+    * Number of fully capitalized words (eg. HEY Y’ALL!!)
+    * Number of characters of fully capitalized words
+    * Ratio of fully capitalized words vs all words
+    * Ratio of characters of fully capitalized words vs characters of all words
+    * Median number of words used per person
+    * Median number of characters used per person
+* Perform Parts-of-speech (POS) tagging to the word document
+* For each MBTI type,
+    * Perform Term Frequency - Inverse Document Frequency (TF-IDF)
+        * For word range of 1-3, up to 10,000 words/phrases each
+        * For each word, apply Truncated Singular Value Decomposition (Truncated SVD) to reduce the size to 500 features each, totalling 1500 features
+    * Pre-process the data:
+        * Perform Standard Scaling on metadata
+        * Combine with TFIDF data, and perform MinMax Scaling
+    * Select 100 best features using chi2 test
+    * Train the model with Logistic Regression
+* Collect instances of all 4 types to predict data from new input data
+* Done!
+
+
+
+## Topic Modelling
+
+What is topic modellling?
+a branch of unsupervised natural language processing which is used to represent a text document with the help of several topics.
+
+Why do we need topic modelling.
+- grouping words in such a way that each group represents a topic in a document. E.g. finding similar questions on StackOverflow, news flow aggregation and analysis, recommender system.
+- topic models helps us make recommendations about what to read next by finding materials that have a topic list in common
+- improve search result by revealing documents that may use a mix of different words but are about the same idea
+
+## Latent Diriclet Allocation
+- Latent: This refers to everything that we don’t know apriori and are hidden in the data. 
+- Dirichlet: Distribution of distributions. In the context of topic modelling, dirichlet is the distributions of topics in documents and distributions of words in the topics.
+- allocation: Once we have the dirichlet, we will allocate topics to the documents and words of the documents to topics.
+
+https://medium.com/@tomar.ankur287/topic-modeling-using-lda-and-gibbs-sampling-explained-49d49b3d1045
+https://towardsdatascience.com/topic-modeling-and-latent-dirichlet-allocation-in-python-9bf156893c24
+https://medium.com/@lettier/how-does-lda-work-ill-explain-using-emoji-108abf40fa7d
+https://towardsdatascience.com/nlp-extracting-the-main-topics-from-your-dataset-using-lda-in-minutes-21486f5aa925
