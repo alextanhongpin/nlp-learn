@@ -166,3 +166,14 @@ https://medium.com/@tomar.ankur287/topic-modeling-using-lda-and-gibbs-sampling-e
 https://towardsdatascience.com/topic-modeling-and-latent-dirichlet-allocation-in-python-9bf156893c24
 https://medium.com/@lettier/how-does-lda-work-ill-explain-using-emoji-108abf40fa7d
 https://towardsdatascience.com/nlp-extracting-the-main-topics-from-your-dataset-using-lda-in-minutes-21486f5aa925
+
+
+## Dependency parsing
+- why we need it?
+- what can we use it for?
+- are there any practical applications for dependency parsing?
+
+
+- https://realpython.com/natural-language-processing-spacy-python/https://realpython.com/natural-language-processing-spacy-python/
+- https://www.megaputer.com/why-we-use-dependency-parsing/
+- https://www.quora.com/NLP-What-are-the-applications-of-parsing-in-natural-language-processing
