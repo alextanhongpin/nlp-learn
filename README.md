@@ -177,3 +177,15 @@ https://towardsdatascience.com/nlp-extracting-the-main-topics-from-your-dataset-
 - https://realpython.com/natural-language-processing-spacy-python/https://realpython.com/natural-language-processing-spacy-python/
 - https://www.megaputer.com/why-we-use-dependency-parsing/
 - https://www.quora.com/NLP-What-are-the-applications-of-parsing-in-natural-language-processing
+
+
+## Text processing
+
+https://www.kdnuggets.com/2018/08/practitioners-guide-processing-understanding-text-2.html
+
+
+## Setting up nlp core
+https://stackoverflow.com/questions/13883277/stanford-parser-and-nltk
+
+## Intro to standford nlp
+https://www.analyticsvidhya.com/blog/2019/02/stanfordnlp-nlp-library-python/
