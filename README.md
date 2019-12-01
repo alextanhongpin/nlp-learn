@@ -189,3 +189,9 @@ https://stackoverflow.com/questions/13883277/stanford-parser-and-nltk
 
 ## Intro to standford nlp
 https://www.analyticsvidhya.com/blog/2019/02/stanfordnlp-nlp-library-python/
+
+## Why is `not` a stop word
+
+https://datascience.stackexchange.com/questions/15765/nlp-why-is-not-a-stop-word
+
+Depending on the context, we would like to preserve the word `not` in the sentence (sentiment analysis etc). 
