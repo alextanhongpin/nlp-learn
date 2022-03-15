@@ -1,10 +1,14 @@
-
-
 ## Scraping best practices
 
+
+Scraping blueprint:
 - tools
 - what headers to use (why)
 - how to rotate proxy (why)
+- fetching structured data (json, html) and unstructured data (text)
+- using cron for periodic scraping
+- using jitter to avoid hammering the server
+- rate limits
 
 https://realpython.com/tutorials/web-scraping/
 https://medium.com/velotio-perspectives/web-scraping-introduction-best-practices-caveats-9cbf4acc8d0f
