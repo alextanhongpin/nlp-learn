@@ -13,3 +13,14 @@ Are there any [cheatsheet](https://cheatography.com/sree017/cheat-sheets/nlp/) o
 
 ## Others
 - [Explainable AI](explainable_ai)
+
+
+## Topic modelling
+
+Topic modelling is a machine learning and natural language processing technique for determining the topics present in a document.
+
+Methods for extraction of topic models includes
+- [latent dirichlet allocation (LDA)](latent_dirichlet_allocation)
+- latent semantic analysis (LSA)
+- probabilistic latent semantic analysis (PLSA)
+- non-negative matrix factorization (NMF)
